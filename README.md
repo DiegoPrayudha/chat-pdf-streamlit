@@ -25,33 +25,6 @@ The key components of this project include:
 2. **Question Answering**: When a user asks a question, the system retrieves relevant document chunks and passes them along with the query to the Llama 3.1 model to generate a response that combines both the external context and the model's internal knowledge.
 3. **Interaction Flow**: The chatbot processes the user’s input, checks for available documents, retrieves context if necessary, and generates an appropriate answer.
 
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/DiegoPrayudha/chat-pdf-streamlit.git
-    cd chat-pdf-streamlit
-    ```
-
-2. Create a virtual environment (recommended):
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. Run the Streamlit app:
-    ```bash
-    streamlit run app.py
-    ```
-
-5. Open the web interface in your browser and interact with the chatbot.
 
 ## Features
 - **PDF Upload**: Upload your documents in PDF format and allow the chatbot to retrieve relevant information from them.
